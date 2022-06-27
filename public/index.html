@@ -5,22 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+    <link rel="icon" href="/public/cao.png">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="index.js" defer></script>
     <title>Cadastro de Animais</title>
 </head>
 <body>
-    <h1>AppAnimal</h1>
-    <h2>Novo Animal</h2>
-    <form id="form-animal">
-        <input type="text" id="nome" placeholder="Nome do Animal">
-        <input type="submit" value="Gravar...">
-    </form>
+    <img src="/public/pet.png" alt="Foto de um pug" id="foto-pet">
+    <h1>MyAnimals</h1>
+    <div id="forms">
+        <h2>Novo Animal</h2>
+        <form id="form-animal">
+            <input type="text" id="nome" placeholder="Nome do Animal">
+            <input type="submit" id="gravar" value="Salvar">
+        </form>
+    
+        <h2 id="titulo-cadastro">Animais Cadastrados</h2>
+        <ul id="lista-animais">
 
-
-    <h2>Animais Cadastrados</h2>
-    <ul id="lista-animais">
-
-    </ul>
+        </ul>
+    </div>
+    <footer id="rodape">
+        <div>
+            <p>Desenvolvido por: Lucas Moura</p>
+        </div>
+    </footer>
 </body>
 </html>

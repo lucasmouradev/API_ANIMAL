@@ -1,4 +1,87 @@
-body {
-    background-color: gray;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, white, orange);
+}
+
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Rubik Moonrocks', cursive;
+    color: orangered;
+    margin-left: 20px;
+    margin-top: 5rem;
+}
+
+
+#forms {
+    display: flex;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+    color: orangered;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid orangered;
+    border-radius: 4px;
+    width: 30%;
+    background-color: white;
+    padding: 1.3rem 0;
+    margin-left: 30rem;
+    margin-top: 5rem;
+    
+}
+
+#lista-animais {
+    margin-top: 1rem;
+    list-style-type: square;
+}
+
+#titulo-cadastro {
+    margin-top: 1rem;
+}
+
+#nome {
+    height: 1.8rem;
+    width: 100%;
+    border: 2px solid orangered;
+    border-radius: 0px;
+    margin-top: 0.9rem;
+}
+
+#gravar {
+    height: 1.8rem;
+    width: 50%;
     color: white;
+    background-color: orangered;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    margin-top: 0.4rem;
+    margin-left: 4.5rem;
+
+}
+
+#foto-pet {
+    position: fixed;
+    justify-content: space-between;
+    width: 30%;
+    margin-top: 6rem;
+}
+
+
+#rodape {
+    font-size: 14px;
+    height: 5rem;
+    text-align: center;
+    color: orangered;
+    margin-top: 8.2rem;
 }
